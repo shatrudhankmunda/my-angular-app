@@ -1,0 +1,45 @@
+/* styles.css or signup.component.css */
+
+/* Center the signup form */
+.signup-form {
+    width: 300px;
+    margin: 0 auto;
+    border-color: #45a049;
+    border-radius: 1;
+  }
+  
+  /* Style form inputs */
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the signup button */
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style form errors */
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  /* Additional styles as needed */
+  
